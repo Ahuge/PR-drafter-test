@@ -4,7 +4,7 @@ workflow "Push" {
 }
 
 action "Draft Pull Request" {
-  uses = "Ahuge/PR-drafter@3f6aab5"
+  uses = "Ahuge/PR-drafter@ab510dc"
   secrets = ["GITHUB_TOKEN"]
 }
 
