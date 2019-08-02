@@ -1,10 +1,10 @@
-workflow "Ahuge Push" {
+workflow "Push" {
   on = "push"
   resolves = ["Draft Pull Request"]
 }
 
 action "Draft Pull Request" {
-  uses = "ahuge/PR-drafter@3f6aab5"
+  uses = "Ahuge/PR-drafter@3f6aab5"
   secrets = ["GITHUB_TOKEN"]
 }
 
